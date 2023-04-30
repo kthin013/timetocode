@@ -1,0 +1,80 @@
+{
+    "anims": [
+        {
+            "key": "melon_idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "melon",
+                    "frame": "tile000"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile001"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile002"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile003"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile004"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile005"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile006"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile007"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile008"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile009"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile010"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile011"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile012"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile013"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile014"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile015"
+                },
+                {
+                    "key": "melon",
+                    "frame": "tile016"
+                }
+            ]
+        }
+    ]
+}

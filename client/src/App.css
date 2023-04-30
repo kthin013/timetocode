@@ -1,0 +1,149 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #cdf8ff, #f1fafb);
+}
+
+.blocklyMainBackground {
+  stroke: none;
+}
+
+.blocklyToolboxDiv {
+  /* border-radius: 15px 0px 0px 30px; */
+  padding: 4px 0px 4px 4px;
+}
+
+/* Makes our label white. */
+.blocklyTreeLabel {
+  color: black;
+  font-weight: 800;
+}
+/* Adds padding around the group of categories and separators. */
+.blocklyToolboxContents {
+  padding: 0.5em;
+}
+/* Adds space between the categories, rounds the corners and adds space around the label. */
+.blocklyTreeRow {
+  padding: 3px;
+  margin-bottom: 0.5em;
+  border-radius: 4px;
+}
+.zelos-renderer.classic-theme .blocklyFlyoutLabelText {
+  fill: black;
+  font-weight: 800;
+}
+
+g.blocklyFlyoutLabel.LabelStyle > text.blocklyFlyoutLabelText {
+  font-weight: 800;
+  fill: rgba(35, 33, 33, 0.9);
+  transform: translateY(4%);
+}
+g.blocklyFlyoutLabel.LabelStyle1 > text.blocklyFlyoutLabelText {
+  font-weight: 800;
+  fill: rgba(35, 33, 33, 0.9);
+  transform: translateY(2%);
+}
+g.blocklyFlyoutLabel.LabelStyle2 > text.blocklyFlyoutLabelText {
+  font-weight: 800;
+  fill: rgba(35, 33, 33, 0.9);
+  transform: translateY(-1%);
+}
+g.blocklyFlyoutLabel.LabelStyle3 > text.blocklyFlyoutLabelText {
+  font-weight: 800;
+  fill: rgba(35, 33, 33, 0.9);
+  transform: translateY(-4%);
+}
+g.blocklyFlyoutLabel.LabelStyle4 > text.blocklyFlyoutLabelText {
+  font-weight: 800;
+  fill: rgba(35, 33, 33, 0.9);
+  transform: translateY(-7%);
+}
+
+#hints-modal::-webkit-scrollbar {
+  border-radius: 1px;
+}
+
+/* Track */
+#hints-modal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+#hints-modal::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#hints-modal::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* .main-container {
+  height: 100%;
+} */
+
+.center {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+}
+
+.center2 {
+  position: absolute;
+  bottom: 3%;
+  right: -3%;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+}
+
+.cloud {
+  background: rgba(255, 255, 255);
+  width: 300px;
+  height: 100px;
+  border-radius: 150px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  animation: move 3s infinite;
+}
+
+.cloud:after {
+  content: "";
+  background: rgba(255, 255, 255);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -50px;
+  left: 50px;
+}
+
+.cloud:before {
+  content: "";
+  background: rgba(255, 255, 255);
+  position: absolute;
+  width: 170px;
+  height: 150px;
+  border-radius: 50%;
+  top: -90px;
+  right: 40px;
+}
+
+@keyframes move {
+  0% {
+    transform: translatex(0);
+  }
+  50% {
+    transform: translatex(-40px);
+  }
+}

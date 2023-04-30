@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "smoke_play",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 24,
+            "frames": [
+                {
+                    "key": "smoke",
+                    "frame": "smoke00"
+                },
+                {
+                    "key": "smoke",
+                    "frame": "smoke01"
+                },
+                {
+                    "key": "smoke",
+                    "frame": "smoke02"
+                },
+                {
+                    "key": "smoke",
+                    "frame": "smoke03"
+                },
+                {
+                    "key": "smoke",
+                    "frame": "smoke04"
+                },
+                {
+                    "key": "smoke",
+                    "frame": "smoke05"
+                },
+                {
+                    "key": "smoke",
+                    "frame": "smoke06"
+                },
+                {
+                    "key": "smoke",
+                    "frame": "smoke07"
+                }
+            ]
+        }
+    ]
+}

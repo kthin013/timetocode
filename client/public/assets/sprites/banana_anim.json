@@ -1,0 +1,80 @@
+{
+    "anims": [
+        {
+            "key": "bananaidle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "banana",
+                    "frame": "tile000"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile001"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile002"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile003"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile004"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile005"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile006"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile007"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile008"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile009"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile010"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile011"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile012"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile013"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile014"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile015"
+                },
+                {
+                    "key": "banana",
+                    "frame": "tile016"
+                }
+            ]
+        }
+    ]
+}

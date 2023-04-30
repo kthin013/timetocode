@@ -1,0 +1,52 @@
+{
+    "anims": [
+        {
+            "key": "end_idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "end",
+                    "frame": "tile000"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile001"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile002"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile003"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile004"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile005"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile006"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile007"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile008"
+                },
+                {
+                    "key": "end",
+                    "frame": "tile009"
+                }
+            ]
+        }
+    ]
+}
